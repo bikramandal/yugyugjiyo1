@@ -1,0 +1,248 @@
+
+/***************************
+	Jiyo popup content css
+*****************************/
+.jiyoPopupBox{
+	display:none;
+	}
+.loginPopup{
+	height: 520px;
+    margin: 0px auto;
+    position: relative;
+    width: 640px;
+	}
+.popupCnt{
+	height: 100%;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    width: 100%;
+	}	
+.loginPopupLeft{
+	background: none repeat scroll 0 0 #999;
+    height: 100%;
+    position: relative;
+    width: 280px;
+    z-index: 9999;
+	left:0;
+	}
+.notranform{
+	transform: translateX(0%) !important;
+	}
+		
+#firstLoginBox{
+	background: #fff;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 20px 31px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    width: 360px;
+	z-index: 1;
+	}
+.popupSocial {
+    padding: 101px 0 0;
+	}	
+.popupSocial a {
+    display: block;
+    padding-bottom: 5px;
+	}
+.popupSocial img {
+    border-radius: 2px;
+	}
+#firstLoginBox p{
+	color: #999;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 25px 0 29px;
+    text-align: center;
+	}			
+#popLoginBt{
+	background:#16a082;
+	color:#fff;
+	font-size:15px;
+	display:block;
+	}
+#popLoginBt{
+	background: none repeat scroll 0 0 #16a082;
+    color: #fff;
+	border:1px solid #16a082;
+    cursor: pointer;
+    display: block;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 500;
+    padding: 10px 0;
+    text-align: center;
+	margin-bottom: 10px;
+	}	
+#popLoginBt:hover{
+	background: none repeat scroll 0 0 #fff;
+	border:1px solid #16a082;
+	color:#16a082;
+	font-weight: 600;
+	}
+#popSignUpBt{
+	background: none repeat scroll 0 0 #fff;
+    color: #16a082;
+	border:1px solid #16a082;
+    cursor: pointer;
+    display: block;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 0;
+    text-align: center;
+	}
+#popSignUpBt:hover{
+	background: none repeat scroll 0 0 #16a082;
+	border:1px solid #16a082;
+	color:#fff;
+	font-weight: 500;
+	}
+				
+#loginBox{
+	background: #fff;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 20px 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    width: 360px;
+	transform: translateX(100%);
+	z-index: 1;
+	}
+	
+/************/	
+#signupBox{
+	background:#fff;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 20px 31px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    width: 360px;
+	transform: translateX(100%);
+	z-index: 1;
+	text-align:center;
+	}
+.topBackLink{
+	color: #5a5a5a;
+    font-family: Arial;
+    font-size: 16px;
+    font-weight: 600;
+	}	
+.topBackLink a {
+    display: inline-block;
+    padding: 0 14px 0 0;
+	}
+.topBackLink img {
+    vertical-align: bottom;
+	}		
+.popupInput{
+	  padding: 37px 0 0;
+	  }
+.popupInput input[type="text"]{
+    border: 1px solid #dadada;
+	border-top: none;
+	color: #1c1c1c;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 13px 11px 13px 19px;
+    text-transform: uppercase;
+    width: 89%;
+	}
+.popupInput input[type="text"]:first-child{
+    border-top: 1px solid #dadada;
+	}	
+.popupInput input[type="submit"]{
+	background: none repeat scroll 0 0 #16a082;
+    border: medium none;
+    color: #fff;
+    font-family: open sans;
+    font-size: 14px;
+    margin: 14px 0 12px;
+    padding: 12px 0;
+    text-transform: uppercase;
+    width: 100%;
+	cursor:pointer;
+	}
+.condition{
+	color: #999;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: left;
+	}
+.condition a{
+	display:inline-block;
+	color:#16a082;
+	}
+.popupBottomLink{
+	border-top: 1px solid #dbdbdb;
+    bottom: 0;
+    color: #666;
+    font-size: 13px;
+    font-weight: 600;
+    padding: 16px 0 17px;
+    position: absolute;
+    width: 82%;
+	text-align:center;
+	}
+.popupBottomLink a{
+	color:#16a082;
+	cursor:pointer;
+	}
+#goforgotPswbox {
+    color: #16a082;
+    display: block;
+    font-size: 13px;
+    font-weight: 600;
+    text-align: right;
+	}
+
+#forgotPswBox{
+	 background: #fff;
+    box-sizing: border-box;
+    height: 100%;
+    padding: 20px 30px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transition: all 0.4s ease 0s;
+    width: 360px;
+	transform: translateX(200%);
+	z-index: 1;
+	}
+#forgotPswBox h6{
+	color: #676767;
+    font-size: 13px;
+    font-weight: 500;
+    padding: 22px 0 0;
+	}
+#forgotPswBox p a{
+	font-size:13px;
+	color: #676767;
+	}
+
+
+
+a{
+cursor:pointer;
+	}
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,269 @@
+.mobilesidemenu {
+    width: 0;
+    /* width of main container doesn't need width */
+}
+
+.mobilesidemenu, .mobilesidemenu * {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mobilesidemenu input[type="checkbox"] {
+    /* checkbox used to toggle menu state */
+    position: absolute;
+    left: 0;
+    top: 0;
+    visibility: hidden;
+}
+
+.mobilesidemenu > label {
+    /* Main label icon to toggle menu state */
+    z-index: 100;
+    display: block;
+    position: relative;
+    font-size: 10px;
+    /* change font size to change label dimensions. Leave width/height below alone */
+    width: 3.5em;
+    height: 3em;
+    top: 0;
+    left: 0;
+    background: white;
+    text-indent: -1000px;
+    border: 0.6em solid black;
+    /* border color */
+    border-width: 0.6em 0;
+    cursor: pointer;
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    /* transition for animating label */
+}
+
+
+.mobilesidemenu > label::before, .mobilesidemenu > label::after {
+    /* inner stripes inside label */
+    content: "";
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 0.6em;
+    top: 50%;
+    margin-top: -0.3em;
+    left: 0;
+    background: black;
+    /* stripes background color. Change to match border color of parent label above */
+    -moz-transform: rotate(0);
+    -webkit-transform: rotate(0);
+    transform: rotate(0);
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    /* transition for flipping label */
+}
+
+.mobilesidemenu nav {
+    /* NAV menu inside container */
+    margin: 0;
+    padding: 10px 10px 5px 23px;
+    position: fixed;
+    text-transform: uppercase;
+    border-right: 1px solid gray;
+    font: bold 14px Verdana;
+    width: 217px;
+    /* width of nav menu */
+    height: 100%;
+    right: -252px;
+    /* set left to -width of menu */
+    top: 0;
+    z-index: 10000;
+		-webkit-transform: translate3d(0, 0, 0); /* trigger hardware acceleration */
+		transform: translate3d(0, 0, 0);
+    background: rgb(242,242,242);
+    /* Old browsers */
+    background:#191919;
+   
+    -moz-transition: all 0.3s ease-in;
+    -webkit-transition: all 0.3s ease-in;
+    transition: all 0.3s ease-in;
+    /* transition for animating nav in and out */
+}
+
+
+.mobilesidemenu nav h2 {
+    color: black;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #73462d;
+}
+
+.mobilesidemenu ul {
+    /* UL menu inside container */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.mobilesidemenu li {
+}
+
+
+.mobilesidemenu li a {
+    color: #b0b0b0;
+    display: block;
+    font-family: open sans;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+    padding: 7px 0;
+    text-decoration: none;
+}
+
+.mobilesidemenu li a:hover {
+    color: #fff;
+}
+
+
+.mobilesidemenu nav label {
+    /* label button inside nav to close menu */
+    background: none repeat scroll 0 0 #191919;
+    cursor: pointer;
+    height: 32px;
+    left: -35px;
+    position: absolute;
+    text-align: center;
+    text-transform: lowercase;
+    top: 78px;
+    width: 36px;
+}
+
+
+.mobilesidemenu nav label::after {
+    /* label button x */
+    color: white;
+    content: "x";
+    display: block;
+    font-family: open sans;
+    font-size: 21px;
+    font-weight: 100;
+    margin-left: 0;
+    margin-top: 0;
+}
+
+.mobilesidemenu .overlay {
+    /* overlay that covers entire page when menu is open */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    opacity: .6;
+    background: black;
+    z-index: 1001;
+    visibility: hidden;
+}
+
+.mobilesidemenu .overlay label {
+    /* label of overlay that closes menu when clicked on */
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+
+
+.mobilesidemenu nav label:hover::after {
+    /* state of NAV label::after when mouse moves over */
+    /*-moz-transform: rotatey(180deg);
+    -ms-transform: rotatey(180deg);
+    -webkit-transform: rotatey(180deg);
+    transform: rotatey(180deg);*/
+    /* flip labels vertically onMouseover */
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ label {
+    /* state of main menu label when menu is open  */
+    border-color: transparent;
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ label::before {
+    /* state of main menu label::before when menu is open  */
+    transform: rotate(-45deg);
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ label::after {
+    /* state of main menu label::after when menu is open  */
+    transform: rotate(45deg);
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ nav {
+    /* state of NAV when menu is open  */
+    right: 0;
+    /* set left to 0 to animate it into view  */
+}
+
+.mobilesidemenu input[type="checkbox"]:checked ~ div.overlay {
+    /* state of overlay when menu is open  */
+    visibility: visible;
+}
+
+
+
+
+.mobilesidemenu > label{
+	border: 6px solid black;
+	background: #eee;
+	height: 30px;
+}
+
+
+
+.secondNav {
+    padding: 25px 0 23px !important;
+    text-transform: none;
+	}
+.secondNav a {
+    font-family: Arial !important;
+    font-size: 13px !important;
+    font-weight: 600 !important;
+    padding: 10px 0 !important;
+	}
+.sideNavContact {
+    color: #c6c6c6;
+    font-family: Open Sans;
+    font-size: 13px;
+    font-weight: 300;
+    text-transform: none;
+	margin:31px 0 36px;
+	}
+.sideNavContact p {
+    padding-bottom: 8px;
+	}
+.sideNavPhone{
+	background: url("../images/ftPhone.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);
+    display: block;
+    padding: 0 0 4px 24px;
+	}
+.sideNavMail{
+	background: url("../images/ftMail.png") no-repeat scroll 0 4px rgba(0, 0, 0, 0);
+    padding: 0 0 0 24px;
+	}
+.sideNavFollow {
+    color: #a6a6a6;
+    font-family: open sans;
+    font-weight: 400;
+    text-transform: none;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

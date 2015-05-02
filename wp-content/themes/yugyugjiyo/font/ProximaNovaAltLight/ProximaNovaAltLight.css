@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'MarkSimonsonProximaNovaAltLight';
+    src: url('MarkSimonsonProximaNovaAltLight.eot');
+    src: url('MarkSimonsonProximaNovaAltLight.eot') format('embedded-opentype'),
+         url('MarkSimonsonProximaNovaAltLight.woff2') format('woff2'),
+         url('MarkSimonsonProximaNovaAltLight.woff') format('woff'),
+         url('MarkSimonsonProximaNovaAltLight.ttf') format('truetype'),
+         url('MarkSimonsonProximaNovaAltLight.svg#MarkSimonsonProximaNovaAltLight') format('svg');
+}
