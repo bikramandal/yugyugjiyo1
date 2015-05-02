@@ -1,0 +1,1936 @@
+@media only screen and (min-width:1128px){
+
+
+}
+
+
+@media only screen and (min-width:960px) and (max-width:1126px){
+.wrapper{
+	 width: auto; 
+	}
+.headMenu {
+    padding: 0 10px;
+	}
+.logo {
+    width: 177px;
+	}	
+.topBar {
+    padding: 0 10px;
+	}
+.topMenu {
+    width: 26%;
+	}	
+.topRight {
+    width: 65%;
+	}
+.topLeft {
+    width: 34%;
+	}		
+.topLeft p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	}
+.topMenu li {
+    margin: 0 0 0 4px;
+    overflow: hidden;
+    position: relative;
+    /*text-indent: 99999px;*/
+    width: 29px;
+	}
+.hospt {
+    border-radius: 5px;
+    width: 120px !important;
+	}
+.hospt a {
+    width: 100%;
+	border-radius: 0;
+	border:none;
+	}
+.hospt a:hover{
+	border:none;
+	}			
+.mainMenu label {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 9999px;
+    width: 30px;
+	}
+.innerPageSearchBox {
+    width: 53.4%;
+	}				
+.bannerArea {
+    padding: 0 10px;
+	}
+.browsePdr li {
+    min-height: inherit;
+	}
+.browsePdr li h6 {
+    font-size: 18px;
+	}
+.searchArea h2 {
+    padding: 17px 36px 12px;
+	}	
+.searchArea p a {
+    padding:9px 0 28px;
+	}	
+.promotLink {
+    padding: 51px 10px;
+	}	
+footer {
+    padding: 0 10px;
+	}	
+.ftLogo p {
+    font-size: 13px !important;
+    font-weight: 100 !important;
+}
+
+
+
+/*******************************
+	Treatment Procedure page
+********************************/	
+.tretProList ul li {
+    border: medium none;
+    margin: 0 1.5% 17px 0;
+    width: 22.5%;
+	}				
+	
+/*******************************
+	Search Result page
+********************************/	
+.searchFilter li select {
+    margin: 0 3px 0 0;
+    width: 124px;
+	}	
+}
+
+@media only screen and (min-width:769px) and (max-width:959px){
+.wrapper{
+	 width: auto; 
+	}
+.wrapper2{
+	 width: auto; 
+	}
+.topBar {
+    padding: 0 10px;
+	}	
+.topLeft p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	}	
+.topRight li {
+    display: none;
+	border-left:none;
+	}	
+.topRight li:last-child {
+    display: block;
+	}
+#innerPgSearch{
+	display: inline-block;
+    position: relative;
+    text-indent: 0;
+	}
+#innerPgSrhBox{
+	display: none;
+    margin: 0 auto;
+    position: absolute;
+    left: 20%;
+    top: 100px;
+    width: 60%;
+	}
+.headMenu {
+    padding: 0 10px;
+	}	
+.hospt {
+    display: none !important;
+	}
+.notify{
+	 text-indent:0 !important;
+	 }	
+.topMenu li {
+     margin: 0 0 0 20px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 99999px;
+    width: 29px;
+	}
+.mainMenu {
+    /*background: url("../images/nav.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);*/
+	}
+.mainMenu label {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 9999px;
+    width: 30px;
+	}
+.searchArea {
+    display: block;
+    float: none;
+    margin: 0 auto 20px auto;
+    width: 553px;
+	}
+.searchArea p a {
+    padding: 9px 0 62px;
+	}
+.searchArea h2 {
+    padding: 47px 0 12px;
+	}		
+.bannerTop {
+    display: block;
+    float: none;
+    width: 553px;
+	margin: 0 auto;
+	}
+.hosptlization {
+    background: url("../images/hospitalisation.png") no-repeat scroll 12px 15px rgba(0, 0, 0, 0);
+    border: 1px solid #c3c3c3;
+    padding: 13px 0 15px 115px;
+	position:relative;
+	}
+.hosptlization a {
+      background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 20%;
+    width: 17px;
+	}
+.hosptlization a:hover{
+	  background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	  }
+.feature {
+    padding: 0 10px 24px;
+	}
+.featList {
+    padding: 21px 0 0;
+	}		  
+.featList li {
+    border: 1px solid #c3c3c3;
+    border-bottom:none;
+    display: block;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    width: auto;
+	position:relative;
+	}
+.featList li:last-child{
+	border-bottom: 1px solid #c3c3c3;
+	}	
+.featList li img {
+    float: left;
+    padding: 0 16px 0 0;
+	}
+.featList li h4, .featList li p {
+    width: 60%;
+	}
+.featListBt {
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border: medium none;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 41%;
+    transition: none 0s ease 0s ;
+    width: 17px;
+	}
+.featListBt:hover{
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	padding: 0;
+	}
+.browsePdr {
+    padding: 26px 0;
+	}
+.featList li p {
+    padding: 0 0 3px;
+	}	
+.browsePdr h3 span {
+    display: none;
+	}
+.browsePdr ul {
+    margin: 0 auto;
+    width: 543px;
+	}
+.browsePdr li {
+    width: 46%;
+	margin: 0 1.5% 13px 0;
+	}
+.browsePdr li:nth-child(2n) {
+    margin-right: 0;
+	}
+.getMore {
+    padding: 26px 0;
+	}	
+.getMore li p {
+    padding: 20px 0 0;
+	}	
+.getMore h3 span {
+    display: none;
+	}
+.getMore ul {
+    margin: 0 auto;
+    width: 499px;
+	padding: 0 0 5px;
+	}	
+.getMore li {
+    display: block;
+    margin: 0 0 20px;
+    vertical-align: top;
+    width: auto;
+	}
+.getMore li:after{
+	content:'';
+	clear:both;
+	display:block;
+	}
+.getMore li img {
+    float: left;
+    padding: 0 36px 24px 0;
+	}
+.promotLink {
+    padding: 27px 10px;
+    text-align: center;
+	}
+.video img {
+    width: 99%;
+	}
+footer {
+    padding: 0 40px;
+	}	
+.dskPB{
+	display:none;
+	}	
+.mobileViewPB{
+	display:block;
+	}	
+.pinkBook {
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+	}	
+.mobileViewPB {
+    display: block;
+    padding-bottom: 17px;
+	}	
+.pinkBook img {
+    max-width: 507px;
+	}
+.videoImage {
+    display: block;
+    float: none;
+    width: 100%;
+	}
+.whatDrive {
+    padding: 27px 0;
+	}
+.whatDrive h3 {
+    padding: 0 0 19px;
+	}	
+.liquid {
+    padding: 10px 0 0 !important;
+	}		
+.ftSpltyLink {
+    display: none;
+	}
+.ftAbout p {
+    display: none;
+	}
+.ftLinks li h5 {
+    display: none;
+	}
+.ftLinks li:nth-child(2n), .ftLinks li:last-child{
+	display:none;
+	}
+.ftAbout {
+    display: block;
+    float: none;
+    padding-bottom: 16px;
+    width: auto;
+	text-align: center;
+	}
+.ftContact {
+    margin: 0 auto;
+    width: 299px;
+	}
+.ftLinks {
+    display: block;
+    float: none;
+    width: auto;
+	}
+.ftLinks li {
+    display: block;
+    float: none;
+    margin: 0;
+    width: auto;
+	}
+.ftLinks li ul {
+    width: auto;
+	}
+.ftLinks li li:nth-child(2n), .ftLinks li li:last-child {
+    display: block;
+	}
+.ftLinks li li {
+    display: inline-block;
+    float: left;
+    padding: 5px 0;
+    width: 25%;
+	}
+.ftLogo {
+    text-align: center;
+	}	
+.ftLogo img {
+    float: none;
+    padding: 0 11px 0 0;
+	}	
+.ftTopCnt {
+    padding: 20px 0;
+	}
+	
+/*******************************
+	Treatment Procedure page
+********************************/	
+.tretProList ul li {
+    border: medium none;
+    margin: 0 2.5% 17px 0;
+	}				
+
+/*******************************
+	Search Result page
+********************************/	
+.searchFilter .wrapper {
+    position: relative;
+	width:318px;
+	}
+.searchFilter ul{
+	background:#16a082;
+	padding:10px;
+	position: absolute;
+	top:36px;
+	left:0;
+	z-index: 99999;
+	display:none;
+	}
+.searchFilter li {
+    display: block;
+    float: none;
+    margin: 0 0 4px;
+	}
+.filterIcon {
+    padding: 12px 0;
+	border-right:2px solid #fff;
+	width:143px;
+	}	
+.searchFilter .filterIcon:hover .searchFilter ul{
+	display:block;
+	}
+.searchFilter {
+    padding: 0;
+	}
+.filterRlstNo{
+	width:118px;
+	margin-top:11px;
+	}
+
+
+
+	
+	
+}
+@media only screen and (min-width:641px) and (max-width:768px){
+.wrapper{
+	 width: auto; 
+	}
+.wrapper2{
+	 width: auto; 
+	}
+.topBar {
+    padding: 0 10px;
+	}	
+.topLeft p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	}	
+.topRight li {
+    display: none;
+	border-left:none;
+	}	
+.topRight li:last-child {
+    display: block;
+	}	
+.headMenu {
+    padding: 0 10px;
+	}	
+.hospt {
+    display: none !important;
+	}
+.notify{
+	 text-indent:0 !important;
+	 }	
+.topMenu li {
+     margin: 0 0 0 20px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 99999px;
+    width: 29px;
+	}
+.mainMenu {
+    /*background: url("../images/nav.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);*/
+	}
+.mainMenu label {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 9999px;
+    width: 30px;
+	}
+.searchArea {
+    display: block;
+    float: none;
+    margin: 0 auto 20px auto;
+    width: 553px;
+	}
+.searchArea p a {
+    padding: 9px 0 62px;
+	}
+.searchArea h2 {
+    padding: 47px 0 12px;
+	}
+#innerPgSearch{
+	display: inline-block;
+    position: relative;
+    text-indent: 0;
+	}
+#innerPgSrhBox{
+	display: none;
+    margin: 0 auto;
+    position: absolute;
+    left: 20%;
+    top: 100px;
+    width: 60%;
+	}
+.bannerTop {
+    display: block;
+    float: none;
+    width: 553px;
+	margin: 0 auto;
+	}
+.hosptlization {
+    background: url("../images/hospitalisation.png") no-repeat scroll 12px 15px rgba(0, 0, 0, 0);
+    border: 1px solid #c3c3c3;
+    padding: 13px 0 15px 115px;
+	position:relative;
+	}
+.hosptlization a {
+      background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 20%;
+    width: 17px;
+	}
+.hosptlization a:hover{
+	  background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	  }
+.feature {
+    padding: 0 10px 24px;
+	}
+.featList {
+    padding: 21px 0 0;
+	}		  
+.featList li {
+    border: 1px solid #c3c3c3;
+    border-bottom:none;
+    display: block;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    width: auto;
+	position:relative;
+	}
+.featList li:last-child{
+	border-bottom: 1px solid #c3c3c3;
+	}	
+.featList li img {
+    float: left;
+    padding: 0 16px 0 0;
+	}
+.featList li h4, .featList li p {
+    width: 60%;
+	}
+.featListBt {
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border: medium none;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 41%;
+    transition: none 0s ease 0s ;
+    width: 17px;
+	}
+.featListBt:hover{
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	padding: 0;
+	}
+.browsePdr {
+    padding: 26px 0;
+	}
+.featList li p {
+    padding: 0 0 3px;
+	}	
+.browsePdr h3 span {
+    display: none;
+	}
+.browsePdr ul {
+    margin: 0 auto;
+    width: 543px;
+	}
+.browsePdr li {
+    width: 46%;
+	margin: 0 1.5% 13px 0;
+	}
+.browsePdr li:nth-child(2n) {
+    margin-right: 0;
+	}
+.getMore {
+    padding: 26px 0;
+	}	
+.getMore li p {
+    padding: 20px 0 0;
+	}	
+.getMore h3 span {
+    display: none;
+	}
+.getMore ul {
+    margin: 0 auto;
+    width: 499px;
+	padding: 0 0 5px;
+	}	
+.getMore li {
+    display: block;
+    margin: 0 0 20px;
+    vertical-align: top;
+    width: auto;
+	}
+.getMore li:after{
+	content:'';
+	clear:both;
+	display:block;
+	}
+.getMore li img {
+    float: left;
+    padding: 0 36px 24px 0;
+	}
+.promotLink {
+    padding: 27px 10px;
+    text-align: center;
+	}
+.video img {
+    width: 99%;
+	}
+footer {
+    padding: 0 40px;
+	}	
+.dskPB{
+	display:none;
+	}	
+.mobileViewPB{
+	display:block;
+	}	
+.pinkBook {
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+	}	
+.mobileViewPB {
+    display: block;
+    padding-bottom: 17px;
+	}	
+.pinkBook img {
+    max-width: 507px;
+	}
+.videoImage {
+    display: block;
+    float: none;
+    width: 100%;
+	}
+.whatDrive {
+    padding: 27px 0;
+	}
+.whatDrive h3 {
+    padding: 0 0 19px;
+	}	
+.liquid {
+    padding: 10px 0 0 !important;
+	}		
+.ftSpltyLink {
+    display: none;
+	}
+.ftAbout p {
+
+    display: none;
+	}
+.ftLinks li h5 {
+    display: none;
+	}
+.ftLinks li:nth-child(2n), .ftLinks li:last-child{
+	display:none;
+	}
+.ftAbout {
+    display: block;
+    float: none;
+    padding-bottom: 16px;
+    width: auto;
+	text-align: center;
+	}
+.ftContact {
+    margin: 0 auto;
+    width: 299px;
+	}
+.ftLinks {
+    display: block;
+    float: none;
+    width: auto;
+	}
+.ftLinks li {
+    display: block;
+    float: none;
+    margin: 0;
+    width: auto;
+	}
+.ftLinks li ul {
+    width: auto;
+	}
+.ftLinks li li:nth-child(2n), .ftLinks li li:last-child {
+    display: block;
+	}
+.ftLinks li li {
+    display: inline-block;
+    float: left;
+    padding: 5px 0;
+    width: 25%;
+	}
+.ftLogo {
+    text-align: center;
+	}	
+.ftLogo img {
+    float: none;
+    padding: 0 11px 0 0;
+	}	
+.ftTopCnt {
+    padding: 20px 0;
+	}
+.loginPopupLeft {
+    display: none;
+	}
+.fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened {
+    width: 360px !important;
+	}
+.fancybox-inner {
+    width: 360px !important;
+	}
+.loginPopup {
+    width: 360px !important;
+	}
+
+/*******************************
+	Treatment Procedure page
+********************************/	
+.tretProList ul li {
+    border: medium none;
+    margin: 0 2.5% 17px 0;
+	}				
+
+
+
+
+
+
+}
+@media only screen and (min-width:481px) and (max-width:640px){
+.wrapper{
+	 width: auto; 
+	}
+.wrapper2{
+	 width: auto; 
+	}
+.topBar {
+    padding: 0 10px;
+	}	
+.topLeft p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	}	
+.topRight li {
+    display: none;
+	border-left:none;
+	}	
+.topRight li:last-child {
+    display: block;
+	}
+#innerPgSearch{
+	display: inline-block;
+    position: relative;
+    text-indent: 0;
+	}
+#innerPgSrhBox{
+	display: none;
+    margin: 0 auto;
+    position: absolute;
+    left: 9%;
+    top: 98px;
+    width: 80%;
+	}
+.topMenu {
+    float: right;
+    padding-top: 3px;
+    width: 50%;
+	}
+.headMenu {
+    padding: 0 10px;
+	}	
+.hospt {
+    display: none !important;
+	}
+.notify{
+	 text-indent:0 !important;
+	 }	
+.topMenu li {
+     margin: 0 0 0 20px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 99999px;
+    width: 29px;
+	}
+.mainMenu {
+    /*background: url("../images/nav.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);*/
+	}
+.mainMenu label {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 9999px;
+    width: 30px;
+	}
+.searchArea {
+    display: block;
+    float: none;
+    margin: 0 auto 20px auto;
+    width: auto;
+	}
+.searchArea p a {
+    padding: 9px 0 62px;
+	}
+.searchArea h2 {
+    padding:22px 0 12px;
+	}		
+.bannerTop {
+    display: block;
+    float: none;
+    width: auto;
+	margin: 0 auto;
+	}
+.hosptlization {
+    background: url("../images/hospitalisation.png") no-repeat scroll 12px 15px rgba(0, 0, 0, 0);
+    border: 1px solid #c3c3c3;
+    padding: 13px 0 15px 115px;
+	position:relative;
+	}
+.hosptlization a {
+      background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 20%;
+    width: 17px;
+	}
+.hosptlization a:hover{
+	  background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	  }
+.feature {
+    padding: 0 10px 24px;
+	}
+.featList {
+    padding: 21px 0 0;
+	}		  
+.featList li {
+    border: 1px solid #c3c3c3;
+    border-bottom:none;
+    display: block;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    width: auto;
+	position:relative;
+	}
+.featList li:last-child{
+	border-bottom: 1px solid #c3c3c3;
+	}	
+.featList li img {
+    float: left;
+    padding: 0 16px 0 0;
+	}
+.featList li h4, .featList li p {
+    width: 60%;
+	}
+.featListBt {
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border: medium none;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 41%;
+    transition: none 0s ease 0s ;
+    width: 17px;
+	}
+.featListBt:hover{
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	padding: 0;
+	}
+.browsePdr {
+    padding: 26px 0;
+	}
+.browsePdr li a {
+    display: block;
+	}	
+.featList li p {
+    padding: 0 0 3px;
+	}	
+.browsePdr h3 span {
+    display: none;
+	}
+.browsePdr ul {
+    margin: 0 auto;
+    width: auto;
+	}
+.browsePdr li {
+    width: 46%;
+	margin: 0 1.5% 13px 0;
+	}
+.browsePdr li:nth-child(2n) {
+    margin-right: 0;
+	}
+.getMore {
+    padding: 26px 10px;
+	}	
+.getMore li p {
+    padding: 20px 0 0;
+	}	
+.getMore h3 span {
+    display: none;
+	}
+.getMore ul {
+    margin: 0 auto;
+    width: auto;
+	padding: 0 0 5px;
+	}	
+.getMore li {
+    display: block;
+    margin: 0 0 20px;
+    vertical-align: top;
+    width: auto;
+	}
+.getMore li:after{
+	content:'';
+	clear:both;
+	display:block;
+	}
+.getMore li img {
+    float: left;
+    padding: 0 36px 24px 0;
+	}
+.promotLink {
+    padding: 27px 10px;
+    text-align: center;
+	}
+.video img {
+    width: 99%;
+	}
+footer {
+    padding: 0 40px;
+	}	
+.dskPB{
+	display:none;
+	}	
+.mobileViewPB{
+	display:block;
+	}	
+.pinkBook {
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+	}	
+.mobileViewPB {
+    display: block;
+    padding-bottom: 17px;
+	}	
+.pinkBook img {
+    max-width: 507px;
+	}
+.videoImage {
+    display: block;
+    float: none;
+    width: 100%;
+	}
+.whatDrive {
+    padding: 27px 0;
+	}
+.whatDrive h3 {
+    padding: 0 0 19px;
+	}	
+.liquid {
+    padding: 10px 0 0 !important;
+	}		
+.ftSpltyLink {
+    display: none;
+	}
+.ftAbout p {
+
+    display: none;
+	}
+.ftLinks li h5 {
+    display: none;
+	}
+.ftLinks li:nth-child(2n), .ftLinks li:last-child{
+	display:none;
+	}
+.ftAbout {
+    display: block;
+    float: none;
+    padding-bottom: 16px;
+    width: auto;
+	text-align: center;
+	}
+.ftContact {
+    margin: 0 auto;
+    width: 299px;
+	}
+.ftLinks {
+    display: block;
+    float: none;
+    width: auto;
+	}
+.ftLinks li {
+    display: block;
+    float: none;
+    margin: 0;
+    width: auto;
+	}
+.ftLinks li ul {
+    width: auto;
+	}
+.ftLinks li li:nth-child(2n), .ftLinks li li:last-child {
+    display: block;
+	}
+.ftLinks li li {
+    display: inline-block;
+    float: left;
+    padding: 5px 0;
+    width: 25%;
+	}
+.ftLogo {
+    text-align: center;
+	}	
+.ftLogo img {
+    float: none;
+    padding: 0 11px 0 0;
+	}	
+.ftTopCnt {
+    padding: 20px 0;
+	}
+.loginPopupLeft {
+    display: none;
+	}
+.fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened {
+    width: 360px !important;
+	}
+.fancybox-inner {
+    width: 360px !important;
+	}
+.loginPopup {
+    width: 360px !important;
+	}
+
+/*******************************
+	Treatment Procedure page
+********************************/	
+.tretProList ul li {
+    border: medium none;
+    margin: 0 1.5% 8px 0;
+	}				
+	
+	
+
+
+
+
+
+
+
+}
+@media only screen and (min-width:321px) and (max-width:480px){
+.wrapper{
+	 width: auto; 
+	}
+.wrapper2{
+	 width: auto; 
+	}
+.topBar {
+    padding: 0 10px;
+	}	
+.topLeft p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	}	
+.topRight li {
+    display: none;
+	border-left:none;
+	}	
+.topRight li:last-child {
+    display: block;
+	}
+.logo {
+    width: 134px;
+	}
+.logo img {
+    width: 100%;
+	}	
+#innerPgSearch{
+	display: inline-block;
+    position: relative;
+    text-indent: 0;
+	}
+#innerPgSrhBox{
+	display: none;
+    left: 3%;
+    margin: 0 auto;
+    position: absolute;
+    top: 94px;
+    width: 90%;
+    z-index: 99999;
+	}
+.dispCateBox {
+    font-size: 13px;
+	}	
+.topMenu {
+    width: 50%;
+	}			
+.headMenu {
+    padding: 0 10px;
+	}
+.topRight {
+    width: 31%;
+	}
+.topLeft {
+    width: 65%;
+	}
+.topCaptionbox {
+    padding: 0 10px;
+	}				
+.hospt {
+    display: none !important;
+	}
+.notify{
+	 text-indent:0 !important;
+	 }	
+.topMenu li {
+    margin:0 0 0 4px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 99999px;
+    width: 29px;
+	}
+.mainMenu {
+    /*background: url("../images/nav.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);*/
+	}
+.mainMenu label {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 9999px;
+    width: 30px;
+	}
+.searchArea {
+    display: block;
+    float: none;
+    margin: 0 auto 20px auto;
+    width: auto;
+	overflow: hidden;
+	}
+.searchArea img {
+    width: auto;
+	}	
+.searchArea p a {
+    padding:9px 0 23px;
+	}
+.searchArea h2 {
+    padding: 47px 0 12px;
+	}		
+.bannerTop {
+    display: block;
+    float: none;
+    width: auto;
+	margin: 0 auto;
+	}
+.hosptlization {
+    background: url("../images/hospitalisation.png") no-repeat scroll 12px 15px rgba(0, 0, 0, 0);
+    border: 1px solid #c3c3c3;
+    padding: 13px 0 15px 115px;
+	position:relative;
+	}
+.hosptlization a {
+      background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 20%;
+    width: 17px;
+	}
+.hosptlization a:hover{
+	  background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	  }
+.topCaption h1 {
+    font-size: 22px;
+	}
+.searchCnt {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    padding: 7px;
+    width: 91%;
+	}		  
+.feature {
+    padding: 0 10px 24px;
+	}
+.featList {
+    padding: 21px 0 0;
+	}		  
+.featList li {
+    border: 1px solid #c3c3c3;
+    border-bottom:none;
+    display: block;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    width: auto;
+	position:relative;
+	}
+.featList li:last-child{
+	border-bottom: 1px solid #c3c3c3;
+	}	
+.featList li img {
+    float: none;
+    padding: 0 16px 0 0;
+	}
+.featList li h4, .featList li p {
+    width: 60%;
+	}
+.featListBt {
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border: medium none;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 41%;
+    transition: none 0s ease 0s ;
+    width: 17px;
+	}
+.featListBt:hover{
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	padding: 0;
+	}
+.browsePdr {
+    padding: 26px 0;
+	}
+.featList li p {
+    padding: 0 0 3px;
+	}	
+.browsePdr h3 span {
+    display: none;
+	}
+.browsePdr ul {
+    margin: 0 auto;
+    width: auto;
+	}
+.browsePdr li {
+    margin: 0 0 13px 0;
+    width: auto;
+	}
+.browsePdr li:nth-child(2n) {
+    margin-right: 0;
+	}
+.getMore {
+    padding: 26px 10px;
+	}	
+.getMore li p {
+    padding: 20px 0 0;
+	}	
+.getMore h3 span {
+    display: none;
+	}
+.getMore ul {
+    margin: 0 auto;
+    width: auto;
+	padding: 0 0 5px;
+	}	
+.getMore li {
+    display: block;
+    margin: 0 0 20px;
+    vertical-align: top;
+    width: auto;
+	}
+.getMore li:after{
+	content:'';
+	clear:both;
+	display:block;
+	}
+.getMore li img {
+    float: left;
+    padding: 0 36px 24px 0;
+	}
+.promotLink {
+    padding: 27px 10px;
+    text-align: center;
+	}
+.video img {
+    width: 99%;
+	}
+footer {
+    padding: 0 40px;
+	}	
+.dskPB{
+	display:none;
+	}	
+.mobileViewPB{
+	display:block;
+	}	
+.pinkBook {
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+	}	
+.mobileViewPB {
+    display: block;
+    padding-bottom: 17px;
+	}	
+.pinkBook img {
+    max-width: 507px;
+	}
+.videoImage {
+    display: block;
+    float: none;
+    width: 100%;
+	}
+.whatDrive {
+    padding: 27px 0;
+	}
+.whatDrive h3 {
+    padding: 0 0 19px;
+	}	
+.liquid {
+    padding: 10px 0 0 !important;
+	}		
+.ftSpltyLink {
+    display: none;
+	}
+.ftAbout p {
+
+    display: none;
+	}
+.ftLinks li h5 {
+    display: none;
+	}
+.ftLinks li:nth-child(2n), .ftLinks li:last-child{
+	display:none;
+	}
+.ftAbout {
+    display: block;
+    float: none;
+    padding-bottom: 16px;
+    width: auto;
+	text-align:center;
+	}
+.ftContact {
+    margin: 0 auto;
+    width: 156px;
+	}
+.ftLinks {
+    display: block;
+    float: none;
+    width: auto;
+	}
+.ftLinks li {
+    display: block;
+    float: none;
+    margin: 0;
+    width: auto;
+	}
+.ftLinks li ul {
+    width: auto;
+	}
+.ftLinks li li:nth-child(2n), .ftLinks li li:last-child {
+    display: block;
+	}
+.ftLinks li li {
+    display: inline-block;
+    float: left;
+    padding: 5px 0;
+    width: 50%;
+	}
+.ftLogo {
+    text-align: center;
+	}	
+.ftLogo img {
+    float: none;
+    padding: 0 11px 0 0;
+	}	
+.ftTopCnt {
+    padding: 20px 0;
+	}
+/***** popup ***********/
+.loginPopupLeft {
+    display: none;
+	}
+.fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened {
+    width: 300px !important;
+	}
+.fancybox-inner {
+    width: 300px !important;
+	}
+.loginPopup {
+    width: 300px !important;
+	}
+#firstLoginBox{
+	width: 300px !important;
+	padding: 20px 10px !important;
+	}
+#loginBox{
+	width: 300px !important;
+	padding: 20px 10px !important;
+	}
+#signupBox{
+	width: 300px !important;
+	padding: 20px 10px !important;
+	}
+#forgotPswBox{
+	width: 300px !important;
+	padding: 20px 10px !important;
+	}
+.popupSocial img {
+    width: 100%;
+	}	
+.fancybox-close {
+   height: 22px !important;
+    right: 0px !important;
+    width: 25px !important;
+	}
+.loginPopup{
+    height: 490px !important;
+	}	
+.fancybox-inner{
+	height: 490px !important;
+	}	
+.topBackLink a {
+    vertical-align: middle;
+	}	
+.topBackLink {
+    font-size: 13px !important;
+	}	
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-size: 25px auto;
+	}	
+.popupInput input[type="text"]{
+    font-size: 12px !important;	
+    font-weight: 500 !important;	
+    padding: 8px 11px 8px 19px !important;	
+	}	
+.popupInput input[type="submit"] {
+    padding: 7px 0 !important;	
+	}
+.popupBottomLink {
+    width: 93% !important;
+	}	
+#popLoginBt {
+    padding: 7px 0 !important;	
+	}	
+#popSignUpBt {
+    padding: 6px 0 !important;	
+	}	
+	
+	
+		
+/*******************************
+	Treatment Procedure page
+********************************/	
+.tretProList ul li {
+    border: medium none;
+    margin: 0 0 9px;
+	}				
+
+}
+@media only screen and (max-width:320px){
+.wrapper{
+	 width: auto; 
+	}
+.wrapper2{
+	 width: auto; 
+	}
+.topBar {
+    padding: 0 10px;
+	}	
+.topLeft p {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+	}	
+.topRight li {
+    display: none;
+	border-left:none;
+	}	
+.topRight li:last-child {
+    display: block;
+	}
+.logo {
+    float: none;
+    text-align: center;
+    width: auto;
+	}
+#innerPgSearch{
+	display: inline-block;
+    position: relative;
+    text-indent: 0;
+	}
+#innerPgSrhBox{
+	display: none;
+    left: 3%;
+    margin: 0 auto;
+    position: absolute;
+    top: 94px;
+    width: 90%;
+    z-index: 99999;
+	}
+.dispCateBox {
+    font-size: 13px;
+	}	
+.topMenu {
+    float: none;
+    margin: 0 auto;
+    width: 107px;
+	}			
+.headMenu {
+    padding: 0 10px;
+	}
+.topRight {
+    width: 31%;
+	}
+.topLeft {
+    width: 65%;
+	}
+.topCaptionbox {
+    padding: 0 10px;
+	}				
+.hospt {
+    display: none !important;
+	}
+.notify{
+	 text-indent:0 !important;
+	 }	
+.topMenu li {
+    margin:0 0 0 4px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 99999px;
+    width: 29px;
+	}
+.mainMenu {
+    /*background: url("../images/nav.png") no-repeat scroll 0 2px rgba(0, 0, 0, 0);*/
+	}
+.mainMenu label {
+    display: block;
+    height: 30px;
+    overflow: hidden;
+    position: relative;
+    text-indent: 9999px;
+    width: 30px;
+	}
+.searchArea {
+    display: block;
+    float: none;
+    margin: 0 auto 20px auto;
+    width: auto;
+	overflow:hidden;
+	}
+.searchArea img {
+    width: auto;
+	}	
+.searchArea p a {
+    padding:9px 0 23px;
+	}
+.searchArea h2 {
+    padding: 47px 0 12px;
+	}		
+.bannerTop {
+    display: block;
+    float: none;
+    width: auto;
+	margin: 0 auto;
+	}
+.hosptlization {
+    background: url("../images/hospitalisation.png") no-repeat scroll 12px 15px rgba(0, 0, 0, 0);
+    border: 1px solid #c3c3c3;
+    padding: 13px 0 15px 115px;
+	position:relative;
+	}
+.hosptlization a {
+      background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 20%;
+    width: 17px;
+	}
+.hosptlization a:hover{
+	  background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	  }
+.topCaption h1 {
+    font-size: 22px;
+	}
+.searchCnt {
+    background: none repeat scroll 0 0 rgba(0, 0, 0, 0.8);
+    margin: 0 auto;
+    padding: 7px;
+    width: 91%;
+	}		  
+.feature {
+    padding: 0 10px 24px;
+	}
+.featList {
+    padding: 21px 0 0;
+	}		  
+.featList li {
+    border: 1px solid #c3c3c3;
+    border-bottom:none;
+    display: block;
+    margin: 0;
+    padding: 15px;
+    text-align: left;
+    width: auto;
+	position:relative;
+	}
+.featList li:last-child{
+	border-bottom: 1px solid #c3c3c3;
+	}	
+.featList li img {
+    float: none;
+    padding: 0 16px 0 0;
+	}
+.featList li h4, .featList li p {
+    width: 60%;
+	}
+.featListBt {
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+    border: medium none;
+    border-radius: 0;
+    height: 21px;
+    padding: 0;
+    position: absolute;
+    right: 27px;
+    text-indent: -99999px;
+    top: 41%;
+    transition: none 0s ease 0s ;
+    width: 17px;
+	}
+.featListBt:hover{
+    background: url("../images/arrw2.png") no-repeat scroll 5px 4px #c2ccd7;
+	padding: 0;
+	}
+.browsePdr {
+    padding: 26px 0;
+	}
+.featList li p {
+    padding: 0 0 3px;
+	}	
+.browsePdr h3 span {
+    display: none;
+	}
+.browsePdr ul {
+    margin: 0 auto;
+    width: auto;
+	}
+.browsePdr li {
+    margin: 0 0 13px 0;
+    width: auto;
+	min-height: inherit;
+	}
+.browsePdr li:nth-child(2n) {
+    margin-right: 0;
+	}
+.getMore {
+    padding: 26px 10px;
+	}	
+.getMore li p {
+    padding: 20px 0 0;
+	}	
+.getMore h3 span {
+    display: none;
+	}
+.getMore h3 {
+    font-family: Arial;
+    font-size: 19px;
+	}	
+.getMore ul {
+    margin: 0 auto;
+    width: auto;
+	padding: 0 0 5px;
+	}	
+.getMore li {
+    display: block;
+    margin: 0 0 20px;
+    vertical-align: top;
+    width: auto;
+	}
+.getMore li:after{
+	content:'';
+	clear:both;
+	display:block;
+	}
+.getMore li img {
+    float: left;
+    padding: 0 36px 24px 0;
+	}
+.promotLink {
+    padding: 27px 10px;
+    text-align: center;
+	}
+.promotLink h3 {
+    font-size: 19px;
+    padding: 0 0 16px;
+	}	
+.video img {
+    width: 99%;
+	}
+footer {
+    padding: 0 40px;
+	}	
+.dskPB{
+	display:none;
+	}	
+.mobileViewPB{
+	display:block;
+	}	
+.pinkBook {
+    display: block;
+    float: none;
+    text-align: center;
+    width: 100%;
+	}	
+.mobileViewPB {
+    display: block;
+    padding-bottom: 6px
+	}	
+.pinkBook img {
+    max-width: 507px;
+	}
+.videoImage {
+    display: block;
+    float: none;
+    width: 100%;
+	}
+.video {
+    margin-bottom: 7px;
+	}	
+.whatDrive {
+    padding: 27px 0;
+	}
+.whatDrive h3 {
+    padding: 0 0 19px;
+	}	
+.liquid {
+    padding: 10px 0 0 !important;
+	}		
+.ftSpltyLink {
+    display: none;
+	}
+.ftAbout p {
+
+    display: none;
+	}
+.ftLinks li h5 {
+    display: none;
+	}
+.ftLinks li:nth-child(2n), .ftLinks li:last-child{
+	display:none;
+	}
+.ftAbout {
+    display: block;
+    float: none;
+    padding-bottom: 16px;
+    width: auto;
+	text-align:center;
+	}
+.ftContact {
+    margin: 0 auto;
+    width: 156px;
+	}
+.ftLinks {
+    display: block;
+    float: none;
+    width: auto;
+	}
+.ftLinks li {
+    display: block;
+    float: none;
+    margin: 0;
+    width: auto;
+	}
+.ftLinks li ul {
+    width: auto;
+	}
+.ftLinks li li:nth-child(2n), .ftLinks li li:last-child {
+    display: block;
+	}
+.ftLinks li li {
+    display: inline-block;
+    float: left;
+    padding: 5px 0;
+    text-align: center;
+    width: 100%;
+	}
+.ftLogo {
+    text-align: center;
+	}	
+.ftLogo img {
+    float: none;
+    padding: 0 11px 0 0;
+	}	
+.ftTopCnt {
+    padding: 20px 0;
+	}
+/***** popup ***********/
+.loginPopupLeft {
+    display: none;
+	}
+.fancybox-wrap.fancybox-desktop.fancybox-type-inline.fancybox-opened {
+    width: 95% !important;
+	}
+.fancybox-inner {
+    width: 100% !important;
+	}
+.loginPopup {
+    width: 100% !important;
+	}
+#firstLoginBox{
+	width: 100% !important;
+	padding: 20px 10px !important;
+	}
+#loginBox{
+	width: 100% !important;
+	padding: 20px 10px !important;
+	}
+#signupBox{
+	width: 100% !important;
+	padding: 20px 10px !important;
+	}
+#forgotPswBox{
+	width: 100% !important;
+	padding: 20px 10px !important;
+	}
+.popupSocial img {
+    width: 100%;
+	}	
+.fancybox-close {
+   height: 22px !important;
+    right: 0px !important;
+    width: 25px !important;
+	}
+.fancybox-inner{
+	height: 490px !important;
+	}	
+.topBackLink a {
+    vertical-align: middle;
+	}	
+.topBackLink {
+    font-size: 13px !important;
+	}	
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span {
+    background-size: 25px auto;
+	}	
+.popupInput input[type="text"]{
+    font-size: 12px !important;	
+    font-weight: 500 !important;	
+    padding: 8px 11px 8px 19px !important;	
+	width:85% !important;
+	}	
+.popupInput input[type="submit"] {
+    padding: 7px 0 !important;	
+	}
+.popupBottomLink {
+    width: 93% !important;
+	}	
+#popLoginBt {
+    padding: 7px 0 !important;	
+	}	
+#popSignUpBt {
+    padding: 6px 0 !important;	
+	}	
+	
+
+/*******************************
+	Treatment Procedure page
+********************************/	
+.tretProList{
+	padding:0 6px;
+	}
+.tretProList ul li {
+    border: medium none;
+    margin: 0 0 6px;
+	}				
+
+
+		
+}
+
+
+
+
